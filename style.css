@@ -6,14 +6,14 @@
 
 }
 
-/*
+    /*
 
-    The purpose of this CSS code is to apply smooth scrolling behavior to all elements on the page
-    when the user has not specified a preference for reduced motion (prefers-reduced-motion: no-preference).
-    This can enhance the user experience by providing a smoother scrolling effect for those who have not
-    requested reduced motion in their device or browser settings.
+        The purpose of this CSS code is to apply smooth scrolling behavior to all elements on the page
+        when the user has not specified a preference for reduced motion (prefers-reduced-motion: no-preference).
+        This can enhance the user experience by providing a smoother scrolling effect for those who have not
+        requested reduced motion in their device or browser settings.
 
-*/
+    */
 
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -40,34 +40,40 @@ header {
     width: max(100px, 10vw);
 }
 
-/*
-    The max() function is used to set the width of the element dynamically.
-    It checks the two values provided and selects the largest value as the
-    resulting width. In this case, if the viewport width is larger than the
-    equivalent of 100 pixels (18vw is greater than 100px), the element's width
-    will be determined by the viewport width (18vw). However, if the viewport
-    width is smaller than the equivalent of 100 pixels (18vw is less than 100px),
-    the element's width will be fixed at 100 pixels.
+    /*
+        The max() function is used to set the width of the element dynamically.
+        It checks the two values provided and selects the largest value as the
+        resulting width. In this case, if the viewport width is larger than the
+        equivalent of 100 pixels (18vw is greater than 100px), the element's width
+        will be determined by the viewport width (18vw). However, if the viewport
+        width is smaller than the equivalent of 100 pixels (18vw is less than 100px),
+        the element's width will be fixed at 100 pixels.
 
-*/
+    */
 
 #logo {
     aspect-ratio: 35 / 4;
 }
 
-/*
+    /*
 
-    The aspect ratio determines the proportional relationship between the width
-    and height of the element, ensuring it remains consistent regardless of its
-    actual dimensions or the dimensions of its containing block. This can be useful 
-    when you want to control the aspect ratio of elements like images or videos, 
-    ensuring they maintain a specific width-to-height ratio even as the viewport 
-    or container dimensions change.
+        The aspect ratio determines the proportional relationship between the width
+        and height of the element, ensuring it remains consistent regardless of its
+        actual dimensions or the dimensions of its containing block. This can be useful 
+        when you want to control the aspect ratio of elements like images or videos, 
+        ensuring they maintain a specific width-to-height ratio even as the viewport 
+        or container dimensions change.
 
-*/
+    */
 
 #logo {
     background-color: #0a0a23;
     padding: 0.4rem;
+}
+
+h1 {
+    font-size: min(5vw, 1.2em);
+    text-align: center;
+    color: #f1be32;
 }
 
