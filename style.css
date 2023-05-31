@@ -77,3 +77,39 @@ h1 {
     color: #f1be32;
 }
 
+nav ul {
+    list-style: none;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+nav li {
+    color: #f5f6f7;
+
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+
+    display: block;
+}
+
+nav a {
+    font-size: min(5vw, 0.8em);
+    text-decoration: none;
+    color: inherit;    
+}
+
+nav a:hover {
+    background-color: #f5f6f7;
+    color: #0a0a23;
+}
+
+nav a:active {
+    background-color: #1b1b32;
+    color: #f1be32;
+}
+
