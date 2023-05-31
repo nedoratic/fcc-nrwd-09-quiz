@@ -1,0 +1,17 @@
+@media (prefers-reduced-motion: no-preference) {
+
+    * {
+        scroll-behavior: smooth;
+    }
+
+}
+
+/*
+
+    The purpose of this CSS code is to apply smooth scrolling behavior to all elements on the page
+    when the user has not specified a preference for reduced motion (prefers-reduced-motion: no-preference).
+    This can enhance the user experience by providing a smoother scrolling effect for those who have not
+    requested reduced motion in their device or browser settings.
+
+*/
+
