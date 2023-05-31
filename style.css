@@ -164,3 +164,9 @@ textarea {
     white-space: nowrap;
     border: 0;
 }
+
+fieldset {
+    border: none;
+    text-align: left;
+}
+
