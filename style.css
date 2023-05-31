@@ -128,3 +128,7 @@ h2 {
     border-bottom: 4px solid #dfdfe2;    
 }
 
+li {
+    list-style: none;
+}
+
